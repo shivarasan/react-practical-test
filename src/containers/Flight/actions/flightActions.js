@@ -18,7 +18,7 @@ const addBusinessFlight = data => ({
   payload: data
 });
 
-const requestCheapFlights = payload => ({
+const requestCheapFlights = () => ({
   type: FETCH_CHEAP_FLIGHTS_REQUEST
 });
 
